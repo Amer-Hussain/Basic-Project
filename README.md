@@ -1,14 +1,10 @@
 ##### **📘 Basic Project:**
 
-**!\[GitHub repo size](https://img.shields.io/github/repo-size/AmerHussain/Basic-project)**
-
-**!\[GitHub stars](https://img.shields.io/github/stars/AmerHussain/Basic-project?style=social)**
-
-**!\[GitHub forks](https://img.shields.io/github/forks/AmerHussain/Basic-project?style=social)**
-
-**!\[GitHub last commit](https://img.shields.io/github/last-commit/AmerHussain/Basic-project)**
-
-**!\[Languages](https://img.shields.io/github/languages/count/AmerHussain/Basic-project)**
+!\[GitHub repo size](https://img.shields.io/github/repo-size/AmerHussain/Basic-project)
+!\[GitHub stars](https://img.shields.io/github/stars/AmerHussain/Basic-project?style=social)
+!\[GitHub forks](https://img.shields.io/github/forks/AmerHussain/Basic-project?style=social)
+!\[GitHub last commit](https://img.shields.io/github/last-commit/AmerHussain/Basic-project)
+!\[Languages](https://img.shields.io/github/languages/count/AmerHussain/Basic-project)
 
 
 
