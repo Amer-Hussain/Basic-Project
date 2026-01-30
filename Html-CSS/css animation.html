@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CSS Animation</title>
+    <style>
+      .change {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        animation: colorchange 5s infinite linear;
+      }
+      @keyframes colorchange {
+        0% {
+          background-color: black;
+        }
+        25% {
+          background-color: red;
+        }
+        50% {
+          background-color: yellow;
+        }
+        75% {
+          background-color: blue;
+        }
+        100% {
+          background-color: tan;
+        }
+      }
+      .ball {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        position: relative;
+        background-color: black;
+        border-radius: 50%;
+        animation: moveUpDown 3s infinite linear;
+      }
+      @keyframes moveUpDown {
+        0% {
+          left: 0px;
+        }
+        50% {
+          left: 100px;
+        }
+        100% {
+          left: 0px;
+        }
+      }
+      .box {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        margin-top: 10px;
+        animation: rotate 3s infinite linear;
+      }
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .load {
+        width: 50px;
+        height: 50px;
+        background-color: none;
+        border: 5px solid tan;
+        border-color: aqua;
+        border-top: 5px solid blue;
+        margin-top: 20px;
+        border-radius: 50%;
+        animation: spin 1s infinite linear;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .inner {
+        width: 20px;
+        height: 20px;
+        background-color: none;
+        border: 5px solid white;
+        border-top: solid blue;
+        position: relative;
+        top: 12.5px;
+        left: 12.5px;
+        border-radius: 50%;
+        /* animation: spin 1s infinite linear;  */
+      }
+      .text {
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+        width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid black;
+        animation: typeing 5s infinite linear;
+        margin-top: 10px;
+      }
+      @keyframes typeing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 38%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h3>color change Animation</h3>
+    <div class="change"></div>
+    <div class="ball"></div>
+    <div class="box"></div>
+    <div class="load">
+      <div class="inner"></div>
+    </div>
+    <div class="text">national geography</div>
+  </body>
+</html>

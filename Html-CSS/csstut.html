@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>css animation</title>
+    <style>
+      div {
+        width: auto;
+        height: auto;
+      }
+      p {
+        color: red;
+        text-align: center;
+        font-size: xx-large;
+        text-transform: capitalize;
+        font: bold;
+        background-color: aqua;
+        align-self: center;
+        width: auto;
+      }
+      .bet {
+        background-color: black;
+        border: 5px solid red;
+        position: static;
+        top: 200px;
+        left: 200px;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        color: white;
+        font-size: xx-large;
+      }
+
+      .next {
+        background-color: black;
+        border: 5px solid red;
+        position: sticky;
+        top: 50px;
+        left: 50px;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        color: white;
+        font-size: xx-large;
+      }
+
+      .table {
+        display: flex;
+        justify-content: space-around;
+        background-color: dimgray;
+        margin: 3px;
+        padding: 3px;
+        color: white;
+      }
+      .i1,
+      .i2,
+      .i3 {
+        background-color: black;
+        margin: 3px;
+        padding: 3px;
+        flex: 3px;
+        text-align: center;
+        font-size: larger;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        background-color: aqua;
+        padding: 5px;
+        text-align: center;
+        color: black;
+        margin: 3px;
+        flex: 3px;
+      }
+      .g1,
+      .g2,
+      .g3 {
+        background-color: black;
+        color: white;
+        padding: 6px;
+      }
+      .button {
+        background-color: steelblue;
+        width: max-content;
+        height: max-content;
+        padding: 5px;
+        border: none;
+        margin: 6px 20px;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+      .button:hover {
+        background-color: tan;
+      }
+    </style>
+  </head>
+  <body>
+    <p>css test</p>
+    <br /><br /><br />
+    <div class="bet">natural thing</div>
+    <br />
+    <div class="next">position</div>
+    <br />
+
+    <div class="table">
+      <div class="i1">one item</div>
+      <div class="i2">two item</div>
+      <div class="i3">three item</div>
+    </div>
+    <div class="grid">
+      <div class="g1">grid 1</div>
+      <div class="g2">grid 2</div>
+      <div class="g3">grid 3</div>
+    </div>
+    <div class="button">Example button</div>
+    <br /><br />
+  </body>
+</html>
